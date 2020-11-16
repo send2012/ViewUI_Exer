@@ -28,6 +28,11 @@
 					name: 'layout',
 					url: '/layout',
 				},
+				{
+					id: 3,
+					name: 'card',
+					url: '/card',
+				},
 			],
 		} ),
 		

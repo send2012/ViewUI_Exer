@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-const routes = [{
+const routes = [
+	{
 		path: '/',
 		name: 'Home',
 		meta: {
@@ -32,6 +33,15 @@ const routes = [{
 			title: 'layout',
 		},
 		component: () => import( /* webpackChunkName: "layout" */ '@/views/layout/' )
+	},
+	{
+		path: '/card',
+		name: 'card',
+		meta: {
+			level: 1,
+			title: 'card',
+		},
+		component: () => import( /* webpackChunkName: "card" */ '@/views/card/' ),
 	},
 ];
 

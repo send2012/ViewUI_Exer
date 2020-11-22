@@ -33,6 +33,11 @@
 					name: 'card',
 					url: '/card',
 				},
+				{
+					id: 4,
+					name: 'tabs',
+					url: '/tabs',
+				},
 			],
 		} ),
 		

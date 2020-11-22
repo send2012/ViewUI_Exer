@@ -43,6 +43,15 @@ const routes = [
 		},
 		component: () => import( /* webpackChunkName: "card" */ '@/views/card/' ),
 	},
+	{
+		path: '/tabs',
+		name: 'tabs',
+		meta: {
+			level: 1,
+			title: 'tabs',
+		},
+		component: () => import( /* webpackChunkName: "tabs" */ '@/views/tabs/' ),
+	},
 ];
 
 const router = new VueRouter({

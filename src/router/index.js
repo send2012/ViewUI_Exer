@@ -32,7 +32,7 @@ const routes = [
 			level: 1,
 			title: 'layout',
 		},
-		component: () => import( /* webpackChunkName: "layout" */ '@/views/layout/' )
+		component: () => import( /* webpackChunkName: "layout" */ '@/views/layout/' ),
 	},
 	{
 		path: '/card',
@@ -52,6 +52,24 @@ const routes = [
 		},
 		component: () => import( /* webpackChunkName: "tabs" */ '@/views/tabs/' ),
 	},
+	{
+		path: '/steps',
+		name: 'steps',
+		meta: {
+			level: 1,
+			title: 'steps',
+		},
+		component: () => import( '@/views/steps/' )
+	},
+	{
+		path: '/form/viewui-form',
+		name: 'viewui-form',
+		meta: {
+			level: 2,
+			title: 'viewui-form',
+		},
+		component: () => import( '@/views/Form/form/' ),
+	}
 ];
 
 const router = new VueRouter({

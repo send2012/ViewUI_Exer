@@ -8,6 +8,17 @@ import 'view-design/dist/styles/iview.css';
 
 Vue.use(ViewUI);
 
+// // LoadingBar - 在路由中使用
+// router.beforeEach( ( to, from, next ) => {
+// 	ViewUI.LoadingBar.start();
+	
+// 	next();
+// } );
+
+// router.afterEach( route => {
+// 	ViewUI.LoadingBar.finish();
+// } );
+
 Vue.config.productionTip = false;
 
 new Vue({

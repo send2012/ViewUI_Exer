@@ -38,15 +38,27 @@
 					name: 'tabs',
 					url: '/tabs',
 				},
+				{
+					id: 5,
+					name: 'steps',
+					url: '/steps',
+				},
 			],
 		} ),
 		
 		methods: {
 			goRelated( link )
 			{
-				this.$router.push( {
-					path: link,
-				} );
+				console.log( link );
+				
+				let arr = [ 1, 2, 3 ];
+				arr.push( 0 );
+				
+				console.log( arr );
+				
+				// this.$router.push( {
+				// 	path: link,
+				// } );
 			},
 		},
 	};

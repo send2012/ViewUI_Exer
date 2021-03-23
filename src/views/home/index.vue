@@ -49,16 +49,16 @@
 		methods: {
 			goRelated( link )
 			{
-				console.log( link );
+				// console.log( link );
 				
-				let arr = [ 1, 2, 3 ];
-				arr.push( 0 );
+				// let arr = [ 1, 2, 3 ];
+				// arr.push( 0 );
 				
-				console.log( arr );
+				// console.log( arr );
 				
-				// this.$router.push( {
-				// 	path: link,
-				// } );
+				this.$router.push( {
+					path: link,
+				} );
 			},
 		},
 	};

@@ -68,8 +68,17 @@ const routes = [
 			level: 2,
 			title: 'viewui-form',
 		},
-		component: () => import( '@/views/Form/form/' ),
-	}
+		component: () => import( '@/views/form_new/form/' ),
+	},
+	// {
+	// 	path: '/form/viewui-form-new',
+	// 	name: 'viewui-form-new',
+	// 	meta: {
+	// 		level: 2,
+	// 		title: 'viewui-form-new',
+	// 	},
+	// 	component: () => import( '@/views/form_new/form_other_one/' ),
+	// },
 ];
 
 const router = new VueRouter({
